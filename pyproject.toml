@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+
+[project]
+name = "hsbmaulana-pycollection"
+version = "1.0.0"
+description = "Data Structure and Algorithm"
+
+requires-python = ">=3.10.0"
+
+dependencies = []
+
+readme = "README.md"
+license = {file="LICENSE"}
+authors = [{name="Hasby Maulana", email="hsbmaulana.iso@protonmail.com"}]
+classifiers = ["Programming Language :: Python :: 3.10", "Topic :: Software Development :: Libraries :: Python Modules"]
+[project.urls]
+homepage = "https://github.com/hsbmaulana/pycollection"
+bug = "https://github.com/hsbmaulana/pycollection/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=7.2.0"]
+
+[tool.setuptools.packages.find]
+where = ["Pycollection"]
